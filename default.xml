@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="toradex"
+          fetch="http://git.toradex.com/" /> 
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <project name="toradex-bsp-platform.git"
+           path="oe-core"
+           remote="toradex"
+           revision="LinuxImageV2.8" />
+
+  <project name="gbpereira1/meta-custom"
+           path="oe-core/layers/meta-custom"
+           remote="github"
+           revision="master" />
+
+  <!-- Repo tool configuration -->
+  <default revision="main" remote="github" sync-j="4" />
+</manifest>
