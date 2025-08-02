@@ -3,7 +3,7 @@
 
   <remote alias="repo" 
     fetch="https://github.com/Angstrom-distribution"
-    ame="githa"/>
+    name="githa"/>
 
   <remote alias="repo" 
     fetch="https://github.com/Freescale"
