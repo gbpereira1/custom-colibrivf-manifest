@@ -41,7 +41,7 @@
     fetch="https://github.com/" />
 
   <project name="gbpereira1/meta-custom"
-    path="/layers/meta-custom"
+    path="layers/meta-custom"
     remote="github"
     revision="master" />
 
