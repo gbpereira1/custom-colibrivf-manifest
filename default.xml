@@ -23,7 +23,9 @@
   <project name="gbpereira1/meta-custom"
     path="layers/meta-custom"
     remote="github"
-    revision="master" />
+    revision="master" >
+    <copyfile dest="export" src="buildconf/export"/>
+  </project>
 
   <project name="bitbake.git" 
     path="layers/openembedded-core/bitbake" 
@@ -70,9 +72,7 @@
     path="layers/meta-toradex-demos" 
     remote="tdx" 
     revision="c73893a3377ebb557b0fb41f75b26dff40da4442" 
-    upstream="rocko">
-  <copyfile dest="export" src="buildconf/export"/>
-  </project>
+    upstream="rocko"/>
 
   <project name="meta-toradex-nxp.git" 
     path="layers/meta-toradex-nxp" 
